@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DoorTrigger : MonoBehaviour
 {
+    // Reference to the Animator component
     public Animator anim;
 
     private void OnTriggerEnter(Collider other)
