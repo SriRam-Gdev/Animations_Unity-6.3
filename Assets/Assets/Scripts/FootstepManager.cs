@@ -2,7 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-
+/// <summary>
+/// Manages footstep sounds based on the surface the player is walking on.
 public class FootstepManager : MonoBehaviour
 {
     public List<AudioClip> grassSteps = new List<AudioClip>();
